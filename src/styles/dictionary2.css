@@ -1,0 +1,72 @@
+.dictionary-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.result-container {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+@media (min-width: 768px) {
+    .card-body {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .search-input {
+        width: 70%;
+        margin-right: 10px;
+    }
+
+    .search-button {
+        width: 25%;
+    }
+}
