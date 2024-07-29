@@ -12,4 +12,4 @@ command (npm start ) and see in browser in localhost:3000
 this api : https://api.dictionaryapi.dev/api/v2/entries/en/hello
  in the word od hello you can replace to seach word i had done all things so if any doubt comment !!
 
- Happy Coding !!1
+ Happy Coding !!

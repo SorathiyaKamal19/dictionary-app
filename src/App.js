@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../src/styles/dictionary2.css'
 import Dicitionary2 from './components/Dicitionary2';
 
 function App() {

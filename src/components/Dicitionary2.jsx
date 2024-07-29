@@ -1,7 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import { Button, Card, CardBody } from 'react-bootstrap'
-import '../styles/dictionary2.css'
 
 const Dictionary2 = () => {
     const [search, setSearch] = useState("")
